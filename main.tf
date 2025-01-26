@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "test-oidc-bucket-1"
+  name          = "test-oidc-bucket"
   location      = "us-central1"
   project = "pse-csim"
   force_destroy = true
