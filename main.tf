@@ -1,15 +1,7 @@
 resource "google_storage_bucket" "my-bucket" {
-  name          = "bkt-demo-000"
+  name          = "test-oidc-bucket"
   location      = "us-central1"
-  project = "tt-dev-001"
-  force_destroy = true
-  public_access_prevention = "enforced"
-}
-
-resource "google_storage_bucket" "my-bucket2" {
-  name          = "bkt-demo-002"
-  location      = "us-central1"
-  project = "tt-dev-001"
+  project = "pse-csim"
   force_destroy = true
   public_access_prevention = "enforced"
 }
