@@ -27,8 +27,8 @@ jobs:
     - id: auth
       uses: google-github-actions/auth@v2.0.0  
       with:
-        workload_identity_provider: ''
-        service_account: ''
+        workload_identity_provider: 'projects/638111880678/locations/global/workloadIdentityPools/test-auth-pool/providers/test-auth-provider'
+        service_account: 'test-wlf-oidc-2@pse-csim.iam.gserviceaccount.com'
 
 
           
