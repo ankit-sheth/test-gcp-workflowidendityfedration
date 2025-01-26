@@ -1,7 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "bkt-tfstate-00"
-   prefix  = "tf/state"
+   bucket  = "test-oidc-bucket"
 
  }
 }
